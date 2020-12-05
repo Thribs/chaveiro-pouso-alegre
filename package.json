@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "next dev"
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
