@@ -1,0 +1,27 @@
+{
+  "name": "chaveiro-pouso-alegre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^10.0.3",
+    "nvm": "^0.0.4",
+    "npm": "^6.14.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thribs/chaveiro-pouso-alegre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thribs/chaveiro-pouso-alegre/issues"
+  },
+  "homepage": "https://github.com/Thribs/chaveiro-pouso-alegre#readme"
+}
