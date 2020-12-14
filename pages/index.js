@@ -9,7 +9,6 @@ function Home() {
                 <button onclick="window.location.href='./horarios.html'">
                     Chamar um Chaveiro
                 </button>
-                
             </main>
         </div>
     )
