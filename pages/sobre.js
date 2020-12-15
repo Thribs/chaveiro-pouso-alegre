@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
-function Servicos(){
+function Sobre () {
     return (
         <>
         <Head>
-            <title>Serviços</title>
+            <title>Sobre Nós</title>
         </Head>
         <aside>
             <Link href='/'>
@@ -18,4 +18,4 @@ function Servicos(){
     )
 }
 
-export default Servicos
+export default Sobre
