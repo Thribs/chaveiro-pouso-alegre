@@ -1,4 +1,124 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto/Roboto-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto/Roboto-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto/Roboto-Italic.ttf");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Rye";
+    src: url("/fonts/Rye/Rye-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+  
 html {
     background: #000230;
-    color: white
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+}
+header {
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    line-height: .2;
+    font-family: Rye;
+}
+body {
+    background: url(/images/key-fob.jpg) no-repeat center 6rem;
+    margin: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner {
+    background: url(/images/shapes/parchment.svg) no-repeat center;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 16px;
+    width: 100vw;
+    height: 152.42px;
+}
+.content {
+    background: #000230;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: Rye;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.large-button {
+    height: 70px;
+    width: 270px;
+    padding: 0;
+    margin: 0 1rem 1rem;
+
+
+    background: #00022E;
+    border-radius: 12px;
+
+
+    color: white;
+}
+.small-button {
+    background: #000230;
+    border-radius: 12px;
+    padding: 0;
+    margin: 0 clamp(.5vw, 1vw, 2vw) 1rem;
+
+    height: 60px;
+    width: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo {
+    height:100px;
+    width:220px
 }
