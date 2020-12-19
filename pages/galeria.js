@@ -10,7 +10,7 @@ function Galeria () {
         <aside>
             <Link href='/'>
                 <button>
-                    <img src="./images/icons/left-arrow.svg" alt="Seta para voltar"/>
+                    <img src="./images/icons/left-arrow.svg" alt="Seta para a esquerda"/>
                 </button>
             </Link>
         </aside>

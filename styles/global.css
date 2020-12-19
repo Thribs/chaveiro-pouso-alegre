@@ -28,7 +28,6 @@
   }
   
 html {
-    background: #000230;
     color: white;
     display: flex;
     flex-direction: column;
@@ -36,7 +35,7 @@ html {
 
     font-family: "Roboto";
     font-weight: 400;
-    font-size: 12px;
+    font-size: 18px;
 }
 header {
     background-size: cover;
@@ -49,14 +48,38 @@ header {
     line-height: .2;
     font-family: Rye;
 }
+
+h1 { font-size: 1.33em; }
+
+h2 { font-size: 1em; }
+
 body {
     background: url(/images/key-fob.jpg) no-repeat center 6rem;
+    background-color: #000230;
+    
     margin: 0;
 }
-main {
+
+#page-home {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+.content {
+
+    background: #00022E;
+    border-radius: 12px;
+    width: 280px;
+}
+.content-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: none;
+    border-radius: 12px;
+    width: 280px;
 }
 .banner {
     background: url(/images/shapes/parchment.svg) no-repeat center;
@@ -69,14 +92,9 @@ main {
 
     padding-top: 16px;
     width: 100vw;
-    height: 152.42px;
+    height: 10rem;
 }
-.content {
-    background: #000230;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .icons-group {
     display: flex;
     align-items: center;
@@ -121,4 +139,11 @@ button {
 .logo {
     height:100px;
     width:220px
+}
+
+p {
+    font-weight: bold;
+    
+	padding: 20px;
+	height: 100%;
 }
