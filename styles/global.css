@@ -56,7 +56,7 @@ h2 { font-size: 1em; }
 body {
     background: url(/images/key-fob.jpg) no-repeat center 6rem;
     background-color: #000230;
-    
+
     margin: 0;
 }
 
@@ -67,10 +67,11 @@ body {
 
 }
 .content {
+	padding: 20px;
 
     background: #00022E;
     border-radius: 12px;
-    width: 280px;
+    width: 80vw;
 }
 .content-home {
     display: flex;
@@ -144,6 +145,28 @@ button {
 p {
     font-weight: bold;
     
-	padding: 20px;
 	height: 100%;
+}
+.services-grid {
+    display: grid;
+}
+.service-tile {
+    background: #E2D55E;
+    border-radius: 12px;
+
+    display: -webkit-flex;
+    flex-direction: column;
+
+    font-family: "Rye";
+    color: black;
+
+    width: 30vw;
+}
+.service-tile img {
+    width: 100%;
+}
+.service-tile p {
+    margin: 2px 5px;
+    font-size: 2vw;
+    min-height: 25px;
 }
