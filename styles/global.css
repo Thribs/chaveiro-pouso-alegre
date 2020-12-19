@@ -51,7 +51,10 @@ header {
 
 h1 { font-size: 1.33em; }
 
-h2 { font-size: 1em; }
+h2 {
+    font-family: "Rye"; 
+    font-size: 1em;
+     }
 
 body {
     background: url(/images/key-fob.jpg) no-repeat center 6rem;
