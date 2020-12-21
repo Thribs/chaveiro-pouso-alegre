@@ -1,36 +1,12 @@
 import Link from 'next/link'
 import Head from 'next/head'
+
 function Home() {
     return (
         <div>
             <Head>
                 <title>Chaveiro Pouso Alegre</title>
-                <link
-                    rel="preload"
-                    href="/fonts/Roboto/Roboto-Regular.ttf"
-                    as="font"
-                    crossOrigin=""
-                />
-                <link
-                    rel="preload"
-                    href="/fonts/Roboto/Roboto-Bold.ttf"
-                    as="font"
-                    crossOrigin=""
-                />
-                <link
-                    rel="preload"
-                    href="/fonts/Roboto/Roboto-Italic.ttf"
-                    as="font"
-                    crossOrigin=""
-                />
-                <link
-                    rel="preload"
-                    href="/fonts/Rye/Rye-Regular.ttf"
-                    as="font"
-                    crossOrigin=""
-                />
             </Head>
-            <title>Chaveiro Pouso Alegre</title>
             <div id="page-home">
                 <header>
                     <div className="banner">
