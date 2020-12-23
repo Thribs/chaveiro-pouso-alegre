@@ -84,21 +84,30 @@ body::after {
     align-items: center;
 }
 
-.page-content::after {
+.view {
+    display: flex;
+}
+.view::after {
     content: "";
     background: #000230;
     opacity: 0.5;
+
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;   
+    z-index: -1;
+
+    filter: blur(8px);
   }
 
-.view {
-    display: flex;
+.blurred {
+    height: inherit;
+    width: inherit;
+    filter: blur(8px);
 }
+
 .content {
 	padding: 20px;
 

@@ -8,7 +8,7 @@ function Sobre() {
                 <title>Sobre Nós</title>
             </Head>
             <header>
-                <div className="banner"/>
+                <div className="banner blurred"/>
             </header>
             <main>
                 <div className="view">
